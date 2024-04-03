@@ -1,0 +1,60 @@
+h1 {
+    color: teal;
+    text-align: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+    font-size: 30px;
+    height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: orangered;
+    font-size: 300;
+    font-weight: bold;
+    margin-top: 10px;
+}
+h2{
+    color: teal;
+    
+}
+
+.product-info {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 24px;
+    color:teal;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 30px;
+    color: orangered;
+}
+
+.product-options {
+    margin-bottom: 30px;
+    color: orangered;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    color: white;
+    background-color: teal;
+    border: none;
+    padding: 12px;
+}
